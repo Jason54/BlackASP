@@ -1,0 +1,21 @@
+delay: 2
+message1: "S'il vous plaît soyez poli et ne discutez pas trop vite"
+message2: "Pour tout renseignements ou demande d'aide, rejoignez notre discord (https://discord.gg/CnhbCAV)"
+action: "kick"
+kickmessage: "Serveur fermé"
+warnings: 5
+setkickmessage: "Les spammeurs seront expulsés"
+setbanmessage: "Les spammeurs seront bannis"
+setbanipmessage: "Les spammeurs seront interdits sur IP"
+setbancidmessage: "Les spammeurs seront interdits par le CID"
+banmessage: "Pas de spam"
+setdelay: "Les paramètres AntiSpamPro ont été modifiés"
+invaliddelay: "Veuillez utiliser un délai valide (1, 2 ou 3)"
+help1: "/asp kick    définir la punition pour donner un coup de pied"
+help2: "/asp ban     définir la peine d'interdire"
+help3: "/asp set 2   régler le délai minimum (1,2 ou 3)"
+help4: "/asp         afficher le délai minimum actuel"
+lastwarning: "ATTENTION ... DERNIER AVERTISSEMENT"
+swearmessage: "Aucun juron n'est tolérés"
+antiswearwords: true
+antirudenames: true

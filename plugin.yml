@@ -1,0 +1,23 @@
+main: BlackTeam\Blackasp\BlackASP
+api: [3.2.0]
+load: POSTWORLD
+name: BlackASP
+description: "AntiSpamPro"
+version: 1.0.0
+author: BlackTeam
+commands:
+ asp:
+  permission: asp.command
+  description: "Modifier les paramètres AntiSpamPro"
+  usage: "/asp [help || kick || ban || set <cooldown in secs)>]"
+permissions:
+  asp:
+   default: op
+   description: "Permet l'accès à toutes les commandes ASP et au filtre de contournement"
+   children:
+    asp.command:
+     default: op
+     description: "Permet d'accéder à toutes les commandes ASP"
+    asp.bypass:
+     default: op
+     description: "Permet à l'utilisateur de contourner le filtre ASP"
